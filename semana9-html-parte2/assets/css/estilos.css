@@ -1,0 +1,61 @@
+div.container{
+    /*border:solid 5px red;*/
+    background-color: aqua;
+    padding: 20% 0px;
+    text-align: center;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 1px;
+}
+
+
+.row{
+    /*border: solid 1px blue;*/
+    display: table;
+    width: 100%;
+}
+.column {
+    /*border: solid 1px purple;*/
+    width: 23%;
+    float: left;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    height: 240px;
+}
+
+div.card{
+    border: solid 1px gray;
+    border-radius:7px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+}
+div.card-header {
+    color:brown;
+    padding: 10px;
+}
+div.card-body{
+    padding: 10px;
+    text-align: left;
+    color: black;
+    
+}
+div.card > a{
+    text-decoration: none;
+}
+a{
+    border: solid 2px black;
+    border-radius: 20px;
+    display: block;
+}
+a:hover{
+    border: solid 2px brown;
+}
